@@ -1,0 +1,51 @@
+.header-background {
+  background-image: url("../img/Header.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.card {
+  transition: transform 0.2s;
+  background-color: black;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.btn-dark {
+  background-color: #333333;
+  border-color: #000000;
+}
+
+.btn-dark:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
