@@ -5,13 +5,6 @@
   color: white;
   min-height: 40rem;
   display: flex;
-  align-items: center; /* Alinear el contenido verticalmente */
-}
-
-@media (max-width: 768px) {
-  .header-background {
-    min-height: 25rem;
-  }
 }
 
 .merriweather-light {
@@ -106,4 +99,36 @@ footer {
 .btn-dark:hover {
   background-color: #0056b3;
   border-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .header-background {
+    min-height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-head {
+    margin-left: 0;
+    margin-bottom: 2rem; /* Agrega un espacio entre el div y la lista */
+    flex-direction: column;
+    align-items: center; /* Centra los elementos verticalmente */
+    text-align: center;
+  }
+
+  .merriweather-light {
+    width: auto;
+    font-size: 52px;
+  }
+
+  .nav-list {
+    width: auto;
+    margin-right: 0;
+  }
+
+  header p {
+    width: 18rem;
+  }
 }
