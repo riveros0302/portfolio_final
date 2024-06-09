@@ -1,17 +1,62 @@
 .header-background {
-  background-image: url("../img/Header.png");
+  background-image: url("../img/Header2.png");
   background-size: cover;
   background-position: center;
   color: white;
-  height: 30rem;
+  height: 40rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 2rem;
+  font-size: 62px;
+}
+
+.div-head {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 60rem;
+  margin-right: 5rem;
+}
+
+.item-dark {
+  background-color: #000000;
+  margin-bottom: -20px;
+}
+
+.item-dark hr {
+  border-top: 3px solid white;
+}
+
+.item-dark a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.item-dark a:hover {
+  text-decoration: none;
+  font-size: 21px;
+}
+
+header p {
+  width: 25rem;
+}
+
 body {
-  font-family: "Exo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-style: normal;
   background-color: rgb(31, 31, 31);
   color: white;

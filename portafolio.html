@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto&display=swap"
       rel="stylesheet"
     />
 
@@ -30,43 +30,59 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">MiPortafolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="portafolio.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Sobre mí</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <header class="header-background text-start">
-      <div class="container">
-        <h1>Hola, soy Bryan Riveros</h1>
-        <p class="lead">y soy Desarrollador Full-Stack</p>
+      <div class="container div-head">
+        <h1 class="merriweather-light">Bryan Riveros Paredes</h1>
+        <div class="d-flex justify-content-start">
+          <a
+            href="https://linkedin.com/in/bryan-riveros-paredes"
+            class="text-white mx-2"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://github.com/riveros0302"
+            class="text-white mx-2"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            href="https://www.behance.net/applicadevelop"
+            class="text-white mx-2"
+            target="_blank"
+          >
+            <i class="fa-brands fa-square-behance fa-2x"></i>
+          </a>
+        </div>
+        <p>
+          ¡Hola! Soy Bryan Riveros, desarrollador Full-Stack apasionado por
+          crear soluciones innovadoras. Disfruto del desarrollo tanto del lado
+          del cliente como del servidor y me encanta aprender nuevas
+          habilidades.
+        </p>
       </div>
+
+      <ul class="nav-list">
+        <li class="list-group-item item-dark text-end">
+          <a href="#web" class="text-white">Proyectos web</a>
+          <hr />
+        </li>
+        <li class="list-group-item item-dark text-end">
+          <a href="#movil" class="text-white">Proyectos moviles</a>
+          <hr />
+        </li>
+        <li class="list-group-item item-dark text-end">
+          <a href="#contact" class="text-white">Contacto</a>
+          <hr />
+        </li>
+      </ul>
     </header>
 
     <section class="py-5">
       <div class="container">
-        <h2>Proyectos Web</h2>
+        <h2 id="web">Proyectos Web</h2>
         <hr />
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
@@ -107,7 +123,7 @@
           </div>
         </div>
         <br />
-        <h2>Proyectos Moviles</h2>
+        <h2 id="movil">Proyectos Moviles</h2>
         <hr />
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
@@ -119,7 +135,12 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 1</h5>
-                <p class="card-text">Descripción breve del proyecto 1.</p>
+                <p class="card-text">
+                  CheckAuto: App para gestionar datos vehiculares. Organiza
+                  documentos, establece recordatorios y almacena información en
+                  un solo lugar. Segura con Firebase, monetización con
+                  RevenueCat y AdMob. Solución completa y eficiente.
+                </p>
                 <a href="project-details.html" class="btn btn-dark"
                   >Ver detalles</a
                 >
@@ -135,7 +156,14 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 2</h5>
-                <p class="card-text">Descripción breve del proyecto 2.</p>
+                <p class="card-text">
+                  Desarrollé una aplicación inspirada en TripAdvisor que permite
+                  a los usuarios explorar restaurantes locales, acceder a
+                  valoraciones, comentarios, menús y ubicaciones. Este proyecto
+                  fue concebido con el objetivo de ampliar mis habilidades en
+                  React Native y Expo, destacando mi compromiso con el
+                  aprendizaje continuo y la mejora profesional.
+                </p>
                 <a href="project-details.html" class="btn btn-dark"
                   >Ver detalles</a
                 >
@@ -151,7 +179,12 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 3</h5>
-                <p class="card-text">Descripción breve del proyecto 3.</p>
+                <p class="card-text">
+                  Desarrollé una app durante mi práctica en una distribuidora de
+                  ferretería en la V Región. Permite seleccionar productos y
+                  cantidades, generando un PDF del pedido que se envía por
+                  correo.
+                </p>
                 <a href="project-details.html" class="btn btn-dark"
                   >Ver detalles</a
                 >
@@ -165,7 +198,7 @@
     <!-- Sección de contacto -->
     <section class="py-5 bg-dark">
       <div class="container">
-        <h2>Contacto</h2>
+        <h2 id="contact">Contacto</h2>
         <hr />
         <form>
           <div class="mb-3">
@@ -194,29 +227,6 @@
     <footer class="bg-dark text-white text-center py-4">
       <div class="container">
         <p>© 2024 Desarrollador Full-Stack. Todos los derechos reservados.</p>
-        <div class="d-flex justify-content-center">
-          <a
-            href="https://linkedin.com/in/bryan-riveros-paredes"
-            class="text-white mx-2"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin fa-2x"></i>
-          </a>
-          <a
-            href="https://github.com/riveros0302"
-            class="text-white mx-2"
-            target="_blank"
-          >
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-          <a
-            href="https://www.behance.net/applicadevelop"
-            class="text-white mx-2"
-            target="_blank"
-          >
-            <i class="fa-brands fa-square-behance fa-2x"></i>
-          </a>
-        </div>
       </div>
     </footer>
 
