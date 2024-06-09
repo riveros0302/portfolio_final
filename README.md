@@ -14,7 +14,7 @@ Commit: https://github.com/Adam19111987/Adam-repo/pull/1
 
 Fork 2: https://github.com/riveros0302/Fork2-manuelcornejo
 
-Commit: https://github.com/mxcornejo/pruebaportafoliomanuelcornejo/pull/1
+Commit: [https://github.com/mxcornejo/pruebaportafoliomanuelcornejo/pull/1](https://github.com/mxcornejo/pruebaportafoliomanuelcornejo/pull/1/commits)
 
 ## Contacto
 
