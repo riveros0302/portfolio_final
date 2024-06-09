@@ -43,11 +43,22 @@
 .item-dark a {
   text-decoration: none;
   font-size: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+header i {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+header i:hover {
+  transform: scale(1.2);
 }
 
 .item-dark a:hover {
   text-decoration: none;
-  font-size: 21px;
+  transform: scale(1.2);
 }
 
 header p {
@@ -72,12 +83,7 @@ header {
 }
 
 .card {
-  transition: transform 0.2s;
   background-color: black;
-}
-
-.card:hover {
-  transform: scale(1.05);
 }
 
 footer {

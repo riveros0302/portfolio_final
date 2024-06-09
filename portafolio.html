@@ -21,6 +21,15 @@
       rel="stylesheet"
     />
 
+    <!-- Animación -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/35493850d3.js"
@@ -31,7 +40,7 @@
   </head>
   <body>
     <header class="header-background text-start">
-      <div class="container div-head">
+      <div class="container div-head animate__animated animate__bounceInLeft">
         <h1 class="merriweather-light">Bryan Riveros Paredes</h1>
         <div class="d-flex justify-content-start">
           <a
@@ -64,7 +73,7 @@
         </p>
       </div>
 
-      <ul class="nav-list">
+      <ul class="nav-list animate__animated animate__bounceInRight">
         <li class="list-group-item item-dark text-end">
           <a href="#web" class="text-white">Proyectos web</a>
           <hr />
@@ -86,8 +95,12 @@
         <hr />
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <img src="./assets/img/web1.png" class="card-img-top" alt="..." />
+            <div class="card h-100" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                src="./assets/img/web1.png"
+                class="card-img-top"
+                alt="imagen de una pagina web de zapatos de bebés"
+              />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 1</h5>
                 <p class="card-text">Descripción breve del proyecto 1.</p>
@@ -98,8 +111,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <img src="./assets/img/web2.png" class="card-img-top" alt="..." />
+            <div class="card h-100" data-aos="fade-up" data-aos-duration="2000">
+              <img
+                src="./assets/img/web2.png"
+                class="card-img-top"
+                alt="imagen de pagina web de iguanas"
+              />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 2</h5>
                 <p class="card-text">Descripción breve del proyecto 2.</p>
@@ -109,9 +126,17 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="card h-100">
-              <img src="./assets/img/web3.png" class="card-img-top" alt="..." />
+              <img
+                src="./assets/img/web3.png"
+                class="card-img-top"
+                alt="imagen de pagina web de cupones"
+              />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 3</h5>
                 <p class="card-text">Descripción breve del proyecto 3.</p>
@@ -127,11 +152,15 @@
         <hr />
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+            <div
+              class="card h-100"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               <img
                 src="./assets/img/movil1.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="imagen de una app movil para autos"
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 1</h5>
@@ -148,11 +177,15 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+            <div
+              class="card h-100"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <img
                 src="./assets/img/movil2.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="imagen de una app movil de restaurantes de la zona"
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 2</h5>
@@ -171,11 +204,15 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+            <div
+              class="card h-100"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+            >
               <img
                 src="./assets/img/movil3.png"
                 class="card-img-top"
-                alt="..."
+                alt="imagen de una app de selección de herramientas"
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 3</h5>
@@ -235,5 +272,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
