@@ -7,6 +7,7 @@ Puedes ver la versión en vivo en GitHub Pages [aquí](https://riveros0302.githu
 
 # Url Fork
 Fork 1: https://github.com/riveros0302/Adam-repo-fork
+Pull Request: https://github.com/Adam19111987/Adam-repo/pull/1
 
 Fork 2: https://github.com/riveros0302/Fork2-manuelcornejo
 
